@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode development",
     "test": "mocha test --exit",
     "start": "node server/index.js"
   },
